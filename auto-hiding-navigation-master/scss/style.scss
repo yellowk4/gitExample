@@ -464,3 +464,14 @@ Intro Section
 		margin-top: $header-height;
 	}
 }
+
+p {
+	background: red;
+	@include border-radius(5em);
+}
+
+input, textarea {  
+     @include input-placeholder {
+         color: blue;
+     }
+ }
